@@ -37,3 +37,9 @@ wget https://raw.githubusercontent.com/Gazaunga/dotfiles/master/.config/cava/con
 cd ~/Pictures
 wget https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-166605.jpg
 reboot
+
+## get the right config files
+
+## change thunar to nautilus and add script
+
+## what else?
