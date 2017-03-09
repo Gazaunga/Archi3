@@ -18,7 +18,7 @@ mkdir i3blocks
 cd ~/.config/i3blocks
 wget https://github.com/Gazaunga/dotfiles/blob/master/.config/i3blocks/config
 wget https://github.com/Gazaunga/dotfiles/blob/master/.config/i3blocks/i3status.conf
-pacaur -S xorg-xinit i3-gaps-git i3blocks-git dmenu rofi emacs polkit-kde-agent-1 termite compton gsimplecal thunar gvfs file-roller thunar-archive-plugin thunar-shares-plugin thunar-volman ffmpegthumbnailer tumbler raw-thumbnailer gvfs-smb sshfs nitrogen lxappearance pandoc typora xfce4-taskmanager mpv texlive-most cmake darktable
+pacaur -S xorg-xinit i3-gaps-git i3blocks-git gdm dmenu rofi emacs polkit-gnome termite compton gsimplecal polybar thunar gvfs file-roller thunar-archive-plugin thunar-shares-plugin thunar-volman ffmpegthumbnailer tumbler raw-thumbnailer gvfs-smb sshfs libreoffice scrot feh moc smplayer smtube smplayer-themes smplayer-skins howdoi openshot glances leafpad gnome-tweak-tool rxvt-unicode-256color fontforge krita pandoc typora xfce4-taskmanager mpv texlive-most cmake darktable
 cd ~/.i3
 wget https://raw.githubusercontent.com/Gazaunga/dotfiles/master/.i3/config -O config
 cd ~/.config/termite
@@ -41,5 +41,7 @@ reboot
 ## get the right config files
 
 ## change thunar to nautilus and add script
+
+## xdg-user-dirs before moving wallpaper
 
 ## what else?
