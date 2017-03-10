@@ -24,8 +24,8 @@ set $darkblack   #1d2021
 set $transparent #00000000
 
 set $ws1  "1:&#xf105;"
-set $ws2  "2:&#xf121;"
-set $ws3  "3:&#xf268;"
+set $ws2  "2:&#xf268;"
+set $ws3  "3:&#xf121;"
 set $ws4  "4:&#xf2d7;"
 set $ws5  "5:&#xf1fe;"
 set $ws6  "6:&#xf1c1;"
@@ -70,7 +70,7 @@ bindsym $mod+Return exec $term
 bindsym $mod+q kill
 
 bindsym $mod+d exec --no-startup-id rofi -show run
-#exec --no-startup-id rofi -hide-scrollbar -show window
+bindsym $mod+Shift+d exec --no-startup-id rofi -hide-scrollbar -show window
 
 bindsym $mod+h focus left
 bindsym $mod+l focus right
@@ -197,7 +197,7 @@ mode "$mode_gaps_outer" {
 
 #for_window [window_role="pop-up"] floating enable
 
-#assign [class="(?i)chrome"]                       $ws1
+assign [class="(?i)opera"]                       $ws2
 
 bar {
 #    verbose yes
