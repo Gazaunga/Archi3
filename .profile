@@ -13,3 +13,7 @@ export FILEBROWSER=thunar
 
 # autostartx if running on the first tty:
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 && -z $TMUX ]] && exec startx
+
+. ~/.bash_aliases
+. ~/.bash_functions
+. ~/bin/utils.sh
