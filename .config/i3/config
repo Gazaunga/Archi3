@@ -82,8 +82,8 @@ bindsym $mod+Shift+j move down 35px
 bindsym $mod+Shift+k move up 35px
 bindsym $mod+Shift+l move right 35px
 
-bindsym $mod+h split h
-bindsym $mod+v split v
+bindsym $win+h split h
+bindsym $win+v split v
 
 bindsym $mod+f fullscreen
 bindsym $mod+g fullscreen global
@@ -108,7 +108,7 @@ bindsym $mod+Tab workspace back_and_forth
 
 #bindsym $mod+Shift+minus move scratchpad
 #bindsym $mod+Shift+plus scratchpad show
-bindsym $mod+Shift+e exec oblogout
+bindsym $win+Shift+e exec oblogout
 
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2
@@ -276,5 +276,5 @@ new_window 1pixel
 hide_edge_borders both
 
 # Workspaces
-assign [class="typora"] $ws2
-assign [class="texstudio"] $ws1
+assign [class="(?i)typora"] $ws2
+assign [class="(?i)texstudio"] $ws1
