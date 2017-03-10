@@ -108,6 +108,7 @@ bindsym $mod+Tab workspace back_and_forth
 
 #bindsym $mod+Shift+minus move scratchpad
 #bindsym $mod+Shift+plus scratchpad show
+bindsym $mod+Shift+e exec oblogout
 
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2
