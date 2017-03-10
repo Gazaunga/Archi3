@@ -1,7 +1,7 @@
 set $mod Mod1
 set $win Mod4
 set $editor emacs
-set $term urxvt
+set $term urxvt -e screen
 
 set_from_resource $darkred     color1  #000000
 set_from_resource $red         color9  #000000
