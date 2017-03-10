@@ -1,6 +1,6 @@
 sudo pacman -Syu --noconfirm -- needed
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-pacaur -S --noconfirm --noedit xorg-xinit i3-gaps-git i3blocks-git gdm dmenu rofi emacs polkit-gnome otf-fontawesome oblogout ttf-hack-powerline-git ttf-hack-ibx termite compton gsimplecal polybar thunar gvfs file-roller thunar-archive-plugin thunar-volman ffmpegthumbnailer tumbler raw-thumbnailer gvfs-smb sshfs libreoffice scrot feh moc smplayer smtube smplayer-themes smplayer-skins howdoi openshot glances leafpad lxappearance rxvt-unicode fontforge krita pandoc typora xfce4-taskmanager mpv texlive-most cmake darktable
+pacaur -S --noconfirm --noedit xorg-xinit i3-gaps-git i3blocks-git gdm dmenu rofi emacs otf-fontawesome oblogout ttf-hack-powerline-git ttf-hack-ibx termite compton gsimplecal polybar thunar gvfs file-roller thunar-archive-plugin thunar-volman ffmpegthumbnailer tumbler raw-thumbnailer gvfs-smb sshfs libreoffice scrot feh moc smplayer smtube smplayer-themes smplayer-skins howdoi openshot glances leafpad lxappearance rxvt-unicode fontforge krita pandoc typora xfce4-taskmanager mpv texlive-most cmake darktable
 cd ~/Pictures
 wget https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-166605.jpg
 cd ~/
