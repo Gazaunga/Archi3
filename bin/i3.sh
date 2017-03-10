@@ -11,24 +11,25 @@ sudo chmod +x ~/Archi3/bin/SymLink.sh
 #sh ~/Archi3/bin/SymLink.sh
 sudo systemctl enable gdm.service
 cd ~/Archi3
-mv .config ~/.config
-mv .ssh ~/.ssh
-mv bin ~/bin
-mv mv rofi ~/rofi
-mv terminator ~/terminator
-mv .Xdefaults ~/.Xdefaults
-mv .bashrc ~/.bashrc
-mv .profile ~/.profile
-mv .bash_aliases ~/.bash_aliases
-mv .bash_functions ~/.bash_functions
-mv .editorconfig
-mv .fehbg
-mv .interrobangrc
-mv .lesskey
-mv .screenrc
-mv .xbindkeysrc
-mv .xinitrc
-mv wallhaven-59918.jpg ~/wallhaven-59918.jpg
+mv -f gsimplecal ~/gsimplecal
+mv -f .config ~/.config
+mv -f .ssh ~/.ssh
+mv -f bin ~/bin
+mv -f rofi ~/rofi
+mv -f terminator ~/terminator
+mv -f .Xdefaults ~/.Xdefaults
+mv -f .bashrc ~/.bashrc
+mv -f .profile ~/.profile
+mv -f .bash_aliases ~/.bash_aliases
+mv -f .bash_functions ~/.bash_functions
+mv -f .editorconfig
+mv -f .fehbg
+mv -f .interrobangrc
+mv -f .lesskey
+mv -f .screenrc
+mv -f .xbindkeysrc
+mv -f .xinitrc
+mv -f wallhaven-59918.jpg ~/wallhaven-59918.jpg
 reboot
 
 ## get the right config files
