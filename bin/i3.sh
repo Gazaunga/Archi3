@@ -14,7 +14,6 @@ cd ~/Archi3
 mv -f gsimplecal ~/gsimplecal
 mv -f .config ~/.config
 mv -f .ssh ~/.ssh
-mv -f bin ~/bin
 mv -f rofi ~/rofi
 mv -f terminator ~/terminator
 mv -f .Xdefaults ~/.Xdefaults
@@ -30,6 +29,7 @@ mv -f .screenrc
 mv -f .xbindkeysrc
 mv -f .xinitrc
 mv -f wallhaven-59918.jpg ~/wallhaven-59918.jpg
+mv -f bin ~/bin
 reboot
 
 ## get the right config files
