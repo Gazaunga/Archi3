@@ -5,6 +5,7 @@
 	editor = emacs
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = ~/.gitignore
+	pager = less -F -X
 [sendemail]
 	smtpencryption = tls
 	smtpserver = smtp.gmail.com
