@@ -8,7 +8,7 @@ export EDITOR='emacs'
 export GIT_EDITOR='/usr/bin/emacs'
 export BROWSER=qutebrowser
 export TERMINAL=urxvt
-export FILEBROWSER=thunar
+export FILEBROWSER=nautilus
 
 
 # autostartx if running on the first tty:
