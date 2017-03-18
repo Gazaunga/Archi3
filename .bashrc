@@ -5,7 +5,7 @@ PS1="\[\e[0;1m\]┌─ \u@\[\e[1;34m\]\h\[\e[0;1m\]:\w\n└──● \[\e[0m\]"
 # Source global definitions
 [ -f /etc/bashrc ] && source /etc/bashrc
 
-[ -f ~/.bash_alias ] && source ~/.bash_alias
+[ -f ~/.bash_aliases ] && source ~/.bash_aliases
 
 [ -f ~/.bash_env ] && source ~/.bash_env
 
