@@ -21,13 +21,13 @@ mv -f .bashrc ~/.bashrc
 mv -f .profile ~/.profile
 mv -f .bash_aliases ~/.bash_aliases
 mv -f .bash_functions ~/.bash_functions
-mv -f .editorconfig
-mv -f .fehbg
-mv -f .interrobangrc
-mv -f .lesskey
-mv -f .screenrc
-mv -f .xbindkeysrc
-mv -f .xinitrc
+mv -f .editorconfig ~/.editorconfig
+mv -f .fehbg ~/.fehbg
+mv -f .interrobangrc ~/.interrobangrc
+mv -f .lesskey ~/.lesskey
+mv -f .screenrc ~/.screenrc
+mv -f .xbindkeysrc ~/.xbindkeysrc
+mv -f .xinitrc ~/.xinitrc
 mv -f wallhaven-59918.jpg ~/wallhaven-59918.jpg
 mv -f bin ~/bin
 cd ~/bin
