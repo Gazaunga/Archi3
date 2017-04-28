@@ -11,4 +11,4 @@ gem install jekyll
 gem update
 exe fontstrap.sh
 ./fontstrap.sh
-reboot
+
