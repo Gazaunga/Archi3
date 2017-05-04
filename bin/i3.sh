@@ -11,28 +11,32 @@ sudo chmod +x ~/Archi3/bin/SymLink.sh
 #sh ~/Archi3/bin/SymLink.sh
 sudo systemctl enable gdm.service
 cd ~/Archi3
-mv -f gsimplecal ~/gsimplecal
-mv -f .config ~/.config
-mv -f .ssh ~/.ssh
-mv -f rofi ~/rofi
-mv -f terminator ~/terminator
-mv -f .Xdefaults ~/.Xdefaults
-mv -f .bashrc ~/.bashrc
-mv -f .profile ~/.profile
-mv -f .bash_aliases ~/.bash_aliases
-mv -f .bash_functions ~/.bash_functions
-mv -f .editorconfig ~/.editorconfig
-mv -f .fehbg ~/.fehbg
-mv -f .interrobangrc ~/.interrobangrc
-mv -f .lesskey ~/.lesskey
-mv -f .screenrc ~/.screenrc
-mv -f .xbindkeysrc ~/.xbindkeysrc
-mv -f .xinitrc ~/.xinitrc
+##mv -f gsimplecal ~/gsimplecal
+##mv -f .config ~/.config
+##mv -f .ssh ~/.ssh
+##mv -f rofi ~/rofi
+##mv -f terminator ~/terminator
+##mv -f .Xdefaults ~/.Xdefaults
+##mv -f .bashrc ~/.bashrc
+##mv -f .profile ~/.profile
+##mv -f .bash_aliases ~/.bash_aliases
+##mv -f .bash_functions ~/.bash_functions
+##mv -f .editorconfig ~/.editorconfig
+##mv -f .fehbg ~/.fehbg
+##mv -f .interrobangrc ~/.interrobangrc
+##mv -f .lesskey ~/.lesskey
+##mv -f .screenrc ~/.screenrc
+##mv -f .xbindkeysrc ~/.xbindkeysrc
+##mv -f .xinitrc ~/.xinitrc
 mv -f wallhaven-59918.jpg ~/wallhaven-59918.jpg
-mv -f bin ~/bin
+##mv -f bin ~/bin
+sudo chmod +x deploy.sh
+bash deploy.sh
 cd ~/bin
 sudo chmod +x setup-nautilus.sh
-./setup-nautilus.sh
+bash setup-nautilus.sh
+sudo chmod +x rubystrap.sh
+bash rubystrap.sh
 reboot
 
 ## get the right config files
