@@ -9,6 +9,6 @@ touch ~/.gemrc
 gem install bundler
 gem install jekyll
 gem update
-exe fontstrap.sh
+sudo chmod +x ~/bin/fontstrap.sh
 ./fontstrap.sh
 
