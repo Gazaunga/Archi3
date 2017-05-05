@@ -8,6 +8,7 @@ echo "export GEM_HOME=$(ruby -e 'print Gem.user_dir')" >> ~/.bashrc
 touch ~/.gemrc
 gem install bundler
 gem install jekyll
+gem install rake
 gem update
 git config --global user.name "Gazaunga"
 git config --global user.email "jeremy.ottley@gmail.com"
